@@ -24,9 +24,9 @@
       },
       "FSharp.Core": {
         "type": "Direct",
-        "requested": "[8.0.101, )",
-        "resolved": "8.0.101",
-        "contentHash": "sOLz3O4BOxnTKfd5OChdRmDUy4Id0GfoEClRG4nzIod8LY1LJZcNyygKAV0A78XOLh8yvhA5hsDYKZXGCR9blw=="
+        "requested": "[8.0.100, )",
+        "resolved": "8.0.100",
+        "contentHash": "ZOVZ/o+jI3ormTZOa28Wh0tSRoyle1f7lKFcUN61sPiXI7eDZu8eSveFybgTeyIEyW0ujjp31cp7GOglDgsNEg=="
       },
       "Spectre.Console": {
         "type": "Direct",
@@ -57,12 +57,12 @@
       },
       "ARCTokenization": {
         "type": "Transitive",
-        "resolved": "3.0.0",
-        "contentHash": "fDWppiK5FvAfXzWSJlvv1rSnKmpNhuUgPILR9JfW7tqQNx4GUnThWJ9CmO4SM9xwuiHP2A6/Ao/LX0NKzNsS4Q==",
+        "resolved": "5.0.0",
+        "contentHash": "MuD76Rtz2ZZFOJ7KHDtU83WKuaCXgq8in0F+Bkx/wp7uFPgBr2iKfJhxzw5LbpmbANRizB/Io4pGEAsnSZCnMQ==",
         "dependencies": {
           "ARCtrl": "[1.0.1]",
           "ControlledVocabulary": "[1.0.0, 2.0.0)",
-          "FSharp.Core": "8.0.100",
+          "FSharp.Core": "8.0.200",
           "FSharpAux.Core": "[2.0.0]",
           "FsSpreadsheet": "[5.0.2]",
           "FsSpreadsheet.ExcelIO": "[5.0.2]",
@@ -1266,11 +1266,11 @@
       "arcexpect": {
         "type": "Project",
         "dependencies": {
-          "ARCTokenization": "[3.0.0, 3.0.0]",
+          "ARCTokenization": "[5.0.0, 5.0.0]",
           "AnyBadge.NET": "[2.0.0, 2.0.0]",
           "Cytoscape.NET": "[0.2.0, 0.2.0]",
           "Expecto": "[9.0.4, 9.0.4]",
-          "FSharp.Core": "[8.0.101, )",
+          "FSharp.Core": "[8.0.100, )",
           "FSharpAux": "[2.0.0, 2.0.0]",
           "FsSpreadsheet": "[5.0.2, 5.0.2]",
           "FsSpreadsheet.ExcelIO": "[5.0.2, 5.0.2]",
@@ -1281,7 +1281,7 @@
       "arcvalidationpackages": {
         "type": "Project",
         "dependencies": {
-          "FSharp.Core": "[8.0.101, )",
+          "FSharp.Core": "[8.0.100, )",
           "Fake.DotNet.Cli": "[6.0.0, 6.0.0]",
           "FsHttp": "[11.0.0, 11.0.0]"
         }
